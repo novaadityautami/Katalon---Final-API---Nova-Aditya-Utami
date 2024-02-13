@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Chainning Request" time="8.603" tests="2" failures="0" errors="0">
+   <testsuite name="Test Suite Chainning Request" tests="2" failures="0" errors="0" time="8.603" skipped="0" timestamp="13-02-2024T15:31:01" hostname="admin - localhost" id="Test Suites/Test Suite Chainning Request">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/admin/git/Katalon-Final-API-NovaAdityaUtami/Reports/20240213_153059/Test Suite Chainning Request/20240213_153100"/>
+         <property name="logFiles" value="/Users/admin/git/Katalon-Final-API-NovaAdityaUtami/Reports/20240213_153059/Test Suite Chainning Request/20240213_153100/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+      </properties>
+      <testcase name="Test Cases/TC3 - Update Booking" time="4.792" classname="Test Cases/TC3 - Update Booking" status="PASSED">
+         <system-out><![CDATA[13-02-2024T15:31:02 - [TEST_CASE][PASSED] - Test Cases/TC3 - Update Booking: Test Cases/TC3 - Update Booking
+
+13-02-2024T15:31:02 - [TEST_STEP][PASSED] - responses = sendRequest(findTestObject("Booking/Update Booking")): Send request successfully
+
+13-02-2024T15:31:03 - [MESSAGE][INFO] - HAR: /Users/admin/git/Katalon-Final-API-NovaAdityaUtami/Reports/20240213_153059/Test Suite Chainning Request/20240213_153100/requests/main/0.har
+
+13-02-2024T15:31:04 - [MESSAGE][PASSED] - Send request successfully
+
+13-02-2024T15:31:04 - [TEST_STEP][PASSED] - responses = sendRequest(findTestObject("Object Repository/Auth/Create Token")): Send request successfully
+
+13-02-2024T15:31:05 - [MESSAGE][INFO] - HAR: /Users/admin/git/Katalon-Final-API-NovaAdityaUtami/Reports/20240213_153059/Test Suite Chainning Request/20240213_153100/requests/main/1.har
+
+13-02-2024T15:31:05 - [MESSAGE][PASSED] - Send request successfully
+
+13-02-2024T15:31:05 - [TEST_STEP][PASSED] - token = getElementPropertyValue(responses, "token"): null
+
+13-02-2024T15:31:05 - [TEST_STEP][PASSED] - updated = sendRequestAndVerify(findTestObject("Object Repository/Booking/Update Booking", ["token":token])): Send request and verify the response successfully
+
+13-02-2024T15:31:06 - [MESSAGE][INFO] - HAR: /Users/admin/git/Katalon-Final-API-NovaAdityaUtami/Reports/20240213_153059/Test Suite Chainning Request/20240213_153100/requests/main/2.har
+
+13-02-2024T15:31:06 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+13-02-2024T15:31:06 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+13-02-2024T15:31:06 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+13-02-2024T15:31:06 - [MESSAGE][PASSED] - Verify response successfully
+
+13-02-2024T15:31:06 - [MESSAGE][PASSED] - All validation steps have been passed
+
+13-02-2024T15:31:06 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+13-02-2024T15:31:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(updated, "firstname", "James"): Verify element property value successfully
+
+13-02-2024T15:31:06 - [MESSAGE][PASSED] - Verify element property value successfully
+
+13-02-2024T15:31:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(updated, "lastname", "Kwait"): Verify element property value successfully
+
+13-02-2024T15:31:06 - [MESSAGE][PASSED] - Verify element property value successfully
+
+13-02-2024T15:31:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(updated, "totalprice", 200): Verify element property value successfully
+
+13-02-2024T15:31:06 - [MESSAGE][PASSED] - Verify element property value successfully
+
+13-02-2024T15:31:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(updated, "depositpaid", true): Verify element property value successfully
+
+13-02-2024T15:31:06 - [MESSAGE][PASSED] - Verify element property value successfully
+
+13-02-2024T15:31:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(updated, "bookingdates.checkin", "2023-03-03"): Verify element property value successfully
+
+13-02-2024T15:31:06 - [MESSAGE][PASSED] - Verify element property value successfully
+
+13-02-2024T15:31:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(updated, "bookingdates.checkout", "2023-03-04"): Verify element property value successfully
+
+13-02-2024T15:31:06 - [MESSAGE][PASSED] - Verify element property value successfully
+
+13-02-2024T15:31:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(updated, "additionalneeds", "Breakfast"): Verify element property value successfully
+
+13-02-2024T15:31:06 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC4- Delete Booking" time="3.731" classname="Test Cases/TC4- Delete Booking" status="PASSED">
+         <system-out><![CDATA[13-02-2024T15:31:06 - [TEST_CASE][PASSED] - Test Cases/TC4- Delete Booking: Test Cases/TC4- Delete Booking
+
+13-02-2024T15:31:06 - [TEST_STEP][PASSED] - responses = sendRequest(findTestObject("Booking/Update Booking")): Send request successfully
+
+13-02-2024T15:31:08 - [MESSAGE][INFO] - HAR: /Users/admin/git/Katalon-Final-API-NovaAdityaUtami/Reports/20240213_153059/Test Suite Chainning Request/20240213_153100/requests/main/3.har
+
+13-02-2024T15:31:08 - [MESSAGE][PASSED] - Send request successfully
+
+13-02-2024T15:31:08 - [TEST_STEP][PASSED] - responses = sendRequest(findTestObject("Object Repository/Auth/Create Token")): Send request successfully
+
+13-02-2024T15:31:09 - [MESSAGE][INFO] - HAR: /Users/admin/git/Katalon-Final-API-NovaAdityaUtami/Reports/20240213_153059/Test Suite Chainning Request/20240213_153100/requests/main/4.har
+
+13-02-2024T15:31:09 - [MESSAGE][PASSED] - Send request successfully
+
+13-02-2024T15:31:09 - [TEST_STEP][PASSED] - token = getElementPropertyValue(responses, "token"): null
+
+13-02-2024T15:31:09 - [TEST_STEP][PASSED] - updated = sendRequestAndVerify(findTestObject("Object Repository/Booking/Delete Booking", ["token":token])): Send request and verify the response successfully
+
+13-02-2024T15:31:10 - [MESSAGE][INFO] - HAR: /Users/admin/git/Katalon-Final-API-NovaAdityaUtami/Reports/20240213_153059/Test Suite Chainning Request/20240213_153100/requests/main/5.har
+
+13-02-2024T15:31:10 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+13-02-2024T15:31:10 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+13-02-2024T15:31:10 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+13-02-2024T15:31:10 - [MESSAGE][PASSED] - Verify response successfully
+
+13-02-2024T15:31:10 - [MESSAGE][PASSED] - All validation steps have been passed
+
+13-02-2024T15:31:10 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-02-2024T15:31:01 - [TEST_SUITE][PASSED] - Test Suite Chainning Request: Test Cases/TC4- Delete Booking]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

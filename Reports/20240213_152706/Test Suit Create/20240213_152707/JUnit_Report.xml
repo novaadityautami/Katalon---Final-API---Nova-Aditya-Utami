@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suit Create" time="4.94" tests="3" failures="0" errors="0">
+   <testsuite name="Test Suit Create" tests="3" failures="0" errors="0" time="4.94" skipped="0" timestamp="13-02-2024T15:27:09" hostname="admin - localhost" id="Test Suites/Test Suit Create">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/admin/git/Katalon-Final-API-NovaAdityaUtami/Reports/20240213_152706/Test Suit Create/20240213_152707"/>
+         <property name="logFiles" value="/Users/admin/git/Katalon-Final-API-NovaAdityaUtami/Reports/20240213_152706/Test Suit Create/20240213_152707/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+      </properties>
+      <testcase name="Test Cases/TC1-Create Token" time="2.079" classname="Test Cases/TC1-Create Token" status="PASSED">
+         <system-out><![CDATA[13-02-2024T15:27:09 - [TEST_CASE][PASSED] - Test Cases/TC1-Create Token: Test Cases/TC1-Create Token
+
+13-02-2024T15:27:09 - [TEST_STEP][PASSED] - responses = sendRequest(findTestObject("Auth/Create Token")): Send request successfully
+
+13-02-2024T15:27:11 - [MESSAGE][INFO] - HAR: /Users/admin/git/Katalon-Final-API-NovaAdityaUtami/Reports/20240213_152706/Test Suit Create/20240213_152707/requests/main/0.har
+
+13-02-2024T15:27:11 - [MESSAGE][PASSED] - Send request successfully
+
+13-02-2024T15:27:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(responses, 200): Verify response status code successfully
+
+13-02-2024T15:27:11 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC2 - Create Booking" time="1.388" classname="Test Cases/TC2 - Create Booking" status="PASSED">
+         <system-out><![CDATA[13-02-2024T15:27:11 - [TEST_CASE][PASSED] - Test Cases/TC2 - Create Booking: Test Cases/TC2 - Create Booking
+
+13-02-2024T15:27:11 - [TEST_STEP][PASSED] - responses = sendRequest(findTestObject("Booking/Create Booking")): Send request successfully
+
+13-02-2024T15:27:12 - [MESSAGE][INFO] - HAR: /Users/admin/git/Katalon-Final-API-NovaAdityaUtami/Reports/20240213_152706/Test Suit Create/20240213_152707/requests/main/1.har
+
+13-02-2024T15:27:12 - [MESSAGE][PASSED] - Send request successfully
+
+13-02-2024T15:27:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(responses, "booking.firstname", "Kim"): Verify element property value successfully
+
+13-02-2024T15:27:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+13-02-2024T15:27:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(responses, "booking.lastname", "Kadarshian"): Verify element property value successfully
+
+13-02-2024T15:27:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+13-02-2024T15:27:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(responses, "booking.totalprice", 100): Verify element property value successfully
+
+13-02-2024T15:27:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+13-02-2024T15:27:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(responses, "booking.depositpaid", true): Verify element property value successfully
+
+13-02-2024T15:27:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+13-02-2024T15:27:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(responses, "booking.bookingdates.checkin", "2023-02-01"): Verify element property value successfully
+
+13-02-2024T15:27:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+13-02-2024T15:27:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(responses, "booking.bookingdates.checkout", "2023-02-02"): Verify element property value successfully
+
+13-02-2024T15:27:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+13-02-2024T15:27:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(responses, "booking.additionalneeds", "Non Breakfast"): Verify element property value successfully
+
+13-02-2024T15:27:12 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC5 - Ping" time="1.407" classname="Test Cases/TC5 - Ping" status="PASSED">
+         <system-out><![CDATA[13-02-2024T15:27:12 - [TEST_CASE][PASSED] - Test Cases/TC5 - Ping: Test Cases/TC5 - Ping
+
+13-02-2024T15:27:12 - [TEST_STEP][PASSED] - responses = sendRequest(findTestObject("Ping/Ping - HealthCheck")): Send request successfully
+
+13-02-2024T15:27:14 - [MESSAGE][INFO] - HAR: /Users/admin/git/Katalon-Final-API-NovaAdityaUtami/Reports/20240213_152706/Test Suit Create/20240213_152707/requests/main/2.har
+
+13-02-2024T15:27:14 - [MESSAGE][PASSED] - Send request successfully
+
+13-02-2024T15:27:14 - [TEST_STEP][PASSED] - verifyResponseStatusCode(responses, 201): Verify response status code successfully
+
+13-02-2024T15:27:14 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-02-2024T15:27:09 - [TEST_SUITE][PASSED] - Test Suit Create: Test Cases/TC5 - Ping]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

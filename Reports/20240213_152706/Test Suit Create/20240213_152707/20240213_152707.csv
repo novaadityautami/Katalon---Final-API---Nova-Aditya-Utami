@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suit Create,,,,13-02-2024 15:27:09,13-02-2024 15:27:14,4.940s,PASSED
+,,,,,,,
+Test Cases/TC1-Create Token,,,,13-02-2024 15:27:09,13-02-2024 15:27:11,2.079s,PASSED
+"responses = sendRequest(findTestObject(""Auth/Create Token""))",,,,13-02-2024 15:27:09,13-02-2024 15:27:11,1.971s,PASSED
+"verifyResponseStatusCode(responses, 200)",,,,13-02-2024 15:27:11,13-02-2024 15:27:11,0.007s,PASSED
+,,,,,,,
+Test Cases/TC2 - Create Booking,,,,13-02-2024 15:27:11,13-02-2024 15:27:12,1.388s,PASSED
+"responses = sendRequest(findTestObject(""Booking/Create Booking""))",,,,13-02-2024 15:27:11,13-02-2024 15:27:12,1.241s,PASSED
+"verifyElementPropertyValue(responses, ""booking.firstname"", ""Kim"")",,,,13-02-2024 15:27:12,13-02-2024 15:27:12,0.044s,PASSED
+"verifyElementPropertyValue(responses, ""booking.lastname"", ""Kadarshian"")",,,,13-02-2024 15:27:12,13-02-2024 15:27:12,0.012s,PASSED
+"verifyElementPropertyValue(responses, ""booking.totalprice"", 100)",,,,13-02-2024 15:27:12,13-02-2024 15:27:12,0.013s,PASSED
+"verifyElementPropertyValue(responses, ""booking.depositpaid"", true)",,,,13-02-2024 15:27:12,13-02-2024 15:27:12,0.010s,PASSED
+"verifyElementPropertyValue(responses, ""booking.bookingdates.checkin"", ""2023-02-01"")",,,,13-02-2024 15:27:12,13-02-2024 15:27:12,0.019s,PASSED
+"verifyElementPropertyValue(responses, ""booking.bookingdates.checkout"", ""2023-02-02"")",,,,13-02-2024 15:27:12,13-02-2024 15:27:12,0.009s,PASSED
+"verifyElementPropertyValue(responses, ""booking.additionalneeds"", ""Non Breakfast"")",,,,13-02-2024 15:27:12,13-02-2024 15:27:12,0.010s,PASSED
+,,,,,,,
+Test Cases/TC5 - Ping,,,,13-02-2024 15:27:12,13-02-2024 15:27:14,1.407s,PASSED
+"responses = sendRequest(findTestObject(""Ping/Ping - HealthCheck""))",,,,13-02-2024 15:27:12,13-02-2024 15:27:14,1.382s,PASSED
+"verifyResponseStatusCode(responses, 201)",,,,13-02-2024 15:27:14,13-02-2024 15:27:14,0.004s,PASSED
